@@ -1,0 +1,3 @@
+[submodule "scouting-form"]
+	path = scouting-form
+	url = https://github.com/FRC830/scouting-form
