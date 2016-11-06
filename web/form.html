@@ -2,7 +2,7 @@
 {% block body %}
 <div class="row">
 	<div class='col-md-8'>
-		<h2>IQ Quiiz</h2>
+		<h2>IQ Quiz</h2>
 	</div>
 	<div class='col-md-4 text-right'>
 		<img src="static/custom/logo.png" id="logo"></img>
@@ -27,7 +27,22 @@
     </div>
   </div>
   <div class="game-period">
-  	<h3>Logic</h3>   
+  	<h3>Logic</h3> 
+  	     <div class="row">
+      <div class="col-md-6 col-xs-12">
+        {{ form.logic_start.label }} {{ form.logic_start }}
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-11 col-xs-12">
+        {{ form.logic_breach.label }} {{ form.logic_breach }}
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 col-xs-12">
+        {{ form.logic_score.label }} {{ form.logic_score }}
+      </div>
+    </div> 
   </div>
   <div class='game-period'>
     <h3>Trivia</h3>

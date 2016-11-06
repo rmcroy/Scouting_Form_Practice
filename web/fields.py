@@ -6,3 +6,4 @@ class Form(flask_wtf.Form):
     team_id = IntegerField('Team #', buttons=False)
     #Form Fields
     comments = TextAreaField('', col_md=12)
+
