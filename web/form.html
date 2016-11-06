@@ -2,7 +2,7 @@
 {% block body %}
 <div class="row">
 	<div class='col-md-8'>
-		<h2>Scouting Form Template</h2>
+		<h2>IQ Quiz</h2>
 	</div>
 	<div class='col-md-4 text-right'>
 		<img src="static/custom/logo.png" id="logo"></img>
@@ -20,17 +20,17 @@
         <div id="alert" class="alert alert-warning">No player station selected; team ID completion is not available.
         See {{link_to('config_form', 'Settings')}} to choose a station.</div>
       {% else %}
-        <div><label>Player Station: {{conf.get('station', '?')}}</label></div>
-        <div><label>Event: {{conf.get('event_name', '?')}}</label></div>
+        <div><label>Rank Yourself: {{conf.get('station', '?')}}</label></div>
+        <div><label>Age: {{conf.get('event_name', '?')}}</label></div>
         <div id="alert" class="alert" style="display: none;"></div>
       {% endif %}
     </div>
   </div>
   <div class="game-period">
-  	<h3>Autonomous</h3>
+  	<h3>Logic</h3>
   </div>
   <div class='game-period'>
-    <h3>Teleop</h3>
+    <h3>Trivia</h3>
     
   	<div class='row'>
   		<div class='col-md-1'>
